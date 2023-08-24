@@ -1,3 +1,3 @@
 
-importFrom(stats, dnorm, integrate, optim, runif)
+importFrom(stats, dt, dcauchy, rnorm, rexp, runif, rcauchy, integrate)
 export(h0)

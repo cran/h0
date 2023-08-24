@@ -1,15 +1,15 @@
 Package: h0
-Version: 1.0.0
-Date: 2022-6-22
-Title: A Meta Analysis for Estimating the Hubble Constant via Time
-        Delay Cosmography
+Version: 1.0.1
+Date: 2023-8-24
+Title: A Robust Bayesian Meta-Analysis for Estimating the Hubble
+        Constant via Time Delay Cosmography
 Author: Hyungsuk Tak
 Maintainer: Hyungsuk Tak <hyungsuk.tak@gmail.com>
 Depends: R (>= 2.2.0)
-Description: We provide a toolbox to conduct a meta analysis for estimating the current expansion rate of the Universe, called the Hubble constant H0, via time delay cosmography. The input data are (i) estimates of Fermat potential differences and their one-sigma uncertainties (standard errors), and (ii) estimates of time delays and their one-sigma uncertainties. Given these inputs, the meta analysis conducts a maximum likelihood estimation or a Bayesian inference to infer the Hubble constant.
+Description: We provide a toolbox to conduct a Bayesian meta-analysis for estimating the current expansion rate of the Universe, called the Hubble constant H0, via time delay cosmography. The input data are Fermat potential difference and time delay estimates. For a robust inference, we assume a Student's t error for these inputs. Given these inputs, the meta-analysis produces posterior samples of the model parameters including the Hubble constant via Metropolis-Hastings within Gibbs. The package provides an option to implement repelling-attracting Metropolis-Hastings within Gibbs in a case where the parameter space has multiple modes.
 License: GPL-2
 Encoding: UTF-8
 NeedsCompilation: no
-Packaged: 2022-06-24 14:35:53 UTC; hyungsuktak
+Packaged: 2023-08-24 18:59:43 UTC; hyungsuktak
 Repository: CRAN
-Date/Publication: 2022-06-24 17:00:02 UTC
+Date/Publication: 2023-08-24 19:10:02 UTC

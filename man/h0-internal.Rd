@@ -1,6 +1,6 @@
 \name{h0-internal}
-\alias{log.post.H0}
-\alias{log.post.H0.temp}
+\alias{lpost.H0}
+\alias{lpost.H0.temp}
 \alias{TD.dist}
 \alias{D.diff}
 \alias{D}
